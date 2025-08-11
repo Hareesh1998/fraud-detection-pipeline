@@ -1,0 +1,34 @@
+fraud-detection-pipeline/
+│
+├── README.md
+├── ingestion/
+│   ├── batch_ingest.py
+│   ├── stream_ingest.py
+│
+├── transformation/
+│   ├── data_cleaning.py
+│   ├── feature_engineering.py
+│
+├── model/
+│   ├── train_model.py
+│   ├── inference.py
+│
+├── api/
+│   ├── function_app/
+│   │   ├── __init__.py
+│   │   ├── main.py
+│
+├── data_quality/
+│   ├── ge_checks.py
+│   ├── expectations.json
+│
+├── requirements.txt
+└── notebooks/
+    ├── training_notebook.ipynb
+
+pyspark
+mlflow
+scikit-learn
+pandas
+azure-functions
+great-expectations
